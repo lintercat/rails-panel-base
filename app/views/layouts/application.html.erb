@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lintercat Panel</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= render "layouts/navbar" %>
+
+    <div class="container-fluid">
+      <div class="row">
+        <%= render "layouts/sidebar" %>
+  
+        <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
+          <%= flash_messages %>
+          <%= yield %>
+        </main>
+      </div>
+    </div>
+
+    <footer class="container mt-5">
+      <div class="row">
+        <div class="col-12 col-md-9 col-md-10 offset-sm-3 offset-md-2 text-center">
+          <%= Date.today.year %> - Lintercat
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
