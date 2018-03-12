@@ -12,5 +12,7 @@
 //
 //= require rails-ujs
 //= require turbolinks
+//= require bootstrap-datepicker/locales/bootstrap-datepicker.es.js
+//= require select2_locale_es
 //= require binco
 //= require_tree .

@@ -1,0 +1,191 @@
+<h1>Dashboard index</h1>
+<h2>Index <%= link_to "Nuevo", '#', class: "btn btn-outline-success pull-right" %></h2>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>
+        <div class="btn-group" role="group">
+          <%= link_to fa_icon("search"), '#', class: "btn btn-outline-dark" %>
+          <%= link_to fa_icon("edit"), '#', class: "btn btn-outline-dark" %>
+          <%= link_to fa_icon("trash"), '#', class: "btn btn-outline-dark", method: :delete, data: { confirm: 'Seguro que deseas eliminar este usuario?' } %>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>#form</h2>
+<form class="mb-3">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<div class="row card-group">
+  <div class="col-lg-4 col-md-6 mb-3">
+    <div class="card">
+      <img class="card-img-top" src="http://via.placeholder.com/386x180" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title">Card title</h4>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 mb-3">
+    <div class="card">
+      <img class="card-img-top" src="http://via.placeholder.com/386x180" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title">Card title</h4>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 mb-3">
+    <div class="card">
+      <img class="card-img-top" src="http://via.placeholder.com/386x180" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title">Card with a list</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+          <li class="list-group-item">Eos voluptate nobis cumque non dignissimos explicabo, fugit ducimus.</li>
+          <li class="list-group-item">Eius doloribus laboriosam enim qui cupiditate exercitationem eum quaerat laborum?</li>
+        </ul>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 mb-3">
+    <div class="card">
+      <img class="card-img-top" src="http://via.placeholder.com/386x180" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title">Card with a list</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+          <li class="list-group-item">Eos voluptate nobis cumque non dignissimos explicabo, fugit ducimus.</li>
+          <li class="list-group-item">Eius doloribus laboriosam enim qui cupiditate exercitationem eum quaerat laborum?</li>
+        </ul>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 mb-3">
+    <div class="card">
+      <img class="card-img-top" src="http://via.placeholder.com/386x180" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title">Card with buttons</h4>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <small>
+          <div class="btn-group pull-right" role="group">
+            <%= link_to fa_icon("eye"), '#', class: "btn btn-outline-dark" %>
+            <%= link_to fa_icon("edit"), '#', class: "btn btn-outline-dark" %>
+            <%= link_to fa_icon("trash"), '#', class: "btn btn-outline-dark", method: :delete, data: { confirm: 'Seguro que deseas eliminar este usuario?' } %>
+          </div>
+        </small>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 mb-3">
+    <div class="card">
+      <img class="card-img-top" src="http://via.placeholder.com/386x180" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title">Card with buttons</h4>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <small>
+          <div class="btn-group pull-right" role="group">
+            <%= link_to fa_icon("eye"), '#', class: "btn btn-outline-dark" %>
+            <%= link_to fa_icon("edit"), '#', class: "btn btn-outline-dark" %>
+            <%= link_to fa_icon("trash"), '#', class: "btn btn-outline-dark", method: :delete, data: { confirm: 'Seguro que deseas eliminar este usuario?' } %>
+          </div>
+        </small>
+      </div>
+    </div>
+  </div>
+</div>

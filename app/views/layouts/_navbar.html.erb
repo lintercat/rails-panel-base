@@ -1,0 +1,29 @@
+<header>
+  <nav class="navbar navbar-dark fixed-top bg-dark">
+    <b><%= link_to 'Panel', root_path, class: 'navbar-brand' %></b>
+    <button class="navbar-toggler d-md-none"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="nav-item dropdown">
+      <a  class="nav-link dropdown-toggle btn btn-outline-light"
+          href="#"
+          id="navbarDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false">
+        <%= current_user.email %>
+      </a>
+      <div class="dropdown-menu">
+        <%= link_to 'Cerrar Sesión', destroy_user_session_path, method: :delete, class: 'dropdown-item' %>
+      </div>
+    </div>
+  </nav>
+</header>
