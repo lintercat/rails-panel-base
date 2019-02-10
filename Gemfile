@@ -29,9 +29,16 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+
+# Admin panel pack
+# Bootstrap, icons, users, wysiwyg, files and variables
 gem 'binco', '~> 3.1', '>= 3.1.5'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.3'
 gem 'devise', '~> 4.2'
+gem 'trix'
+gem 'dropzonejs-rails'
+gem 'carrierwave-aws'
+gem 'figaro'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

@@ -12,7 +12,12 @@
 //
 //= require rails-ujs
 //= require turbolinks
+//= require binco
 //= require bootstrap-datepicker/locales/bootstrap-datepicker.es.js
 //= require select2_locale_es
-//= require binco
+//= require trix
+//= require dropzone
 //= require_tree .
+
+$.fn.datepicker.defaults.language = 'es'
+$.fn.datepicker.defaults.autoclose = true

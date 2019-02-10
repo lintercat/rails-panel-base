@@ -66,4 +66,8 @@ module ApplicationHelper
   def sidebar_text_with(title)
     "#{title} #{fa_icon('angle-right', class: 'pull-right mt-1 d-none d-md-block')}".html_safe
   end
+
+  def date_to_s(date)
+    date.to_formatted_s(:rfc822) if date.present?
+  end
 end

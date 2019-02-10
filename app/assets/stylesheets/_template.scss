@@ -62,3 +62,28 @@ h1 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+
+.clean-list {
+  list-style-type: none;
+  padding-inline-start: 10px;
+
+  li {
+    user-select: none;
+  }
+}
+
+.no-select {
+  user-select: none;
+}
+
+.filter-btn-container {
+  margin-top: 2rem;
+}
+
+.navbar-brand {
+  span {
+    vertical-align: middle;
+    margin-left: .5rem;
+  }
+}
+

@@ -1,0 +1,17 @@
+.trix-editor-container {
+  height: 400px;
+  overflow: scroll;
+}
+
+.notes-content-wrapper {
+  background-color: #F8F9FA;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  padding: 2rem;
+}
+
+.dropzone {
+  border: 2px solid $secondary;
+  border-style: dashed;
+  border-radius: 0.5rem;
+}
