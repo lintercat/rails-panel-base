@@ -68,6 +68,6 @@ module ApplicationHelper
   end
 
   def date_to_s(date)
-    date.to_formatted_s(:rfc822) if date.present?
+    I18n.l date, format: :long if date.present?
   end
 end
