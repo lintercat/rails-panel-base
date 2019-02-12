@@ -1,0 +1,107 @@
+es:
+  will_paginate:
+    previous_label: "Anterior"
+    next_label: "Siguiente"
+    page_gap: "&hellip;"
+  helpers:
+    submit:
+      create: 'Crear %{model}'
+      update: 'Actualizar %{model}'
+  errors:
+    message:
+      one: "%{count} error impidió que este %{model} se guarde:"
+      other: "%{count} errores impidieron que este %{model} se guarde:"
+  time:
+    formats:
+      default: "%d/%m/%Y %H:%M"
+      date_words: '%d de %B de %Y'
+      month: "%B"
+  date:
+    formats:
+      medium: "%d de %B de %Y"
+    abbr_day_names:
+    - dom
+    - lun
+    - mar
+    - mié
+    - jue
+    - vie
+    - sáb
+    abbr_month_names:
+    -
+    - ene
+    - feb
+    - mar
+    - abr
+    - may
+    - jun
+    - jul
+    - ago
+    - sep
+    - oct
+    - nov
+    - dic
+    day_names:
+    - domingo
+    - lunes
+    - martes
+    - miércoles
+    - jueves
+    - viernes
+    - sábado
+    month_names:
+    -
+    - enero
+    - febrero
+    - marzo
+    - abril
+    - mayo
+    - junio
+    - julio
+    - agosto
+    - septiembre
+    - octubre
+    - noviembre
+    - diciembre
+  
+  dropzone:
+    message: Arrastra archivos aquí o haz click para subir
+  other_routes:
+    dashboard: Panel de Control
+    your_buy_orders: Tus órdenes de compra
+    settings: Configuraciones
+    all: Todo
+    all_p: Todos
+    buy_order_max: Límite de órdenes de compra sin autorización
+    emitted_buy_orders: Emitidas
+    pending_buy_orders: Por autorizar
+    not_payed_bills: Cuentas no pagadas
+    payed_bills: Cuentas pagadas
+    canceled_bills: Cuentas canceladas
+    company_debt:
+      payed: Pagadas
+      not_payed: No Pagadas
+      canceled: Canceladas
+      all: Todas
+    export_to_excel: Exportar a Excel
+    dependent_bills_warning: Se borrarán todas las cuentas por pagar relacionadas con ésta orden.
+  company:
+    name: Hidrotanques
+    legal_name: Soluciones y Tecnologías Innovadoras SA de CV
+    slogan: Expertos en almacenamiento y distribución de líquidos para su industria
+  tooltips:
+    show: Ver
+    cancel: Cancelar
+    edit: Editar
+    delete: Eliminar
+    restore: Reestablecer
+    users: Usuarios
+    configuration: Configuración
+    back: Atrás
+    add: Agregar
+    pdf: Ver PDF
+    bills: Cuentas por pagar
+    deliveries: Entregas
+    pay: Pagar
+    authorize: Autorizar
+    forbid: No Autorizar
