@@ -1,4 +1,8 @@
 Figaro.require_keys(
+  'MAILER_HOST',
+  'SMTP_ADDRESS',
+  'SMTP_DOMAIN',
+  'SMTP_PASSWORD'
   # 'AWS_S3_BUCKET',
   # 'AWS_S3_BUCKET_FOLDER',
   # 'AWS_ACCESS_KEY_ID',

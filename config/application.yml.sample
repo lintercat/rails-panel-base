@@ -1,0 +1,4 @@
+MAILER_HOST: mydomain.com
+SMTP_ADDRESS: smtp.mailerservice.com
+SMTP_DOMAIN: mydomain.com
+SMTP_PASSWORD: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
