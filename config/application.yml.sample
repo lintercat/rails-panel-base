@@ -1,4 +1,11 @@
-MAILER_HOST: mydomain.com
-SMTP_ADDRESS: smtp.mailerservice.com
-SMTP_DOMAIN: mydomain.com
-SMTP_PASSWORD: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+MAILER_HOST: localhost:3000
+SMTP_ADDRESS: smtp.xxxxxxxxxx.com
+SMTP_USERNAME: XXXXXXXXXXXXX
+SMTP_DOMAIN: xxxxxxxxx.com
+SMTP_PASSWORD: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+AWS_S3_BUCKET: xxxx-xxxxxxxxxxxxx
+AWS_S3_BUCKET_FOLDER: xxxxx-xxxxxxxxxxxx
+AWS_ACCESS_KEY_ID: XXXXXXXXXXXXXXXXXXXXX
+AWS_SECRET_ACCESS_KEY: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+AWS_REGION: us-east-1
