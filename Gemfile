@@ -32,7 +32,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Admin panel pack
 # Bootstrap, icons, users, wysiwyg, files and variables
-gem 'binco', '~> 3.1', '>= 3.1.5'
+gem 'binco'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.3'
 gem 'devise', '~> 4.2'
 gem 'devise_invitable', '~> 1.7', '>= 1.7.5'
