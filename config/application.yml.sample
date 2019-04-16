@@ -1,4 +1,6 @@
+MAILER_SENDER: no-reply@lintercat.com
 MAILER_HOST: localhost:3000
+
 SMTP_ADDRESS: smtp.xxxxxxxxxx.com
 SMTP_USERNAME: XXXXXXXXXXXXX
 SMTP_DOMAIN: xxxxxxxxx.com

@@ -11,7 +11,7 @@ class FileUploader < CarrierWave::Uploader::Base
   end
 
   def store_dir
-    root_folder = 'Panel' # ENV.fetch("AWS_S3_BUCKET_FOLDER")
+    root_folder = ENV.fetch("AWS_S3_BUCKET_FOLDER") { 'Panel' }
     "#{root_folder}/#{model.class.to_s.underscore}/#{model.id}"
   end
 end
